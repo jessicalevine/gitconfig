@@ -10,6 +10,7 @@
 [alias]
   br = branch
   co = checkout
+  cm = commit
   fu = fetch upstream
   df = diff --color
   dfno = diff --color --name-only
