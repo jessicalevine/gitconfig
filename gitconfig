@@ -1,0 +1,24 @@
+[user]
+	name = Jordan Goldstein
+	email = mrjordangoldstein@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/jordan/.gitignore
+[diff]
+	tool = vimdiff
+[alias]
+  br = branch
+  co = checkout
+  fu = fetch upstream
+  df = diff --color
+  dfno = diff --color --name-only
+  lg = log --color
+  logl = log --color --pretty=oneline
+  loglb = log --color --decorate --pretty=oneline
+  lol = log --graph --color --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --color --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+
+  # Show files ignored by git:
+  ign = ls-files -o -i --exclude-standard
