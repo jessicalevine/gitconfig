@@ -16,8 +16,8 @@
   dfno = diff --color --name-only
   dfc = diff --color --cached
   lg = log --color
-  logl = log --color --pretty=oneline
-  loglb = log --color --decorate --pretty=oneline
+  ll = log --color --pretty=oneline
+  llb = log --color --decorate --pretty=oneline
   lol = log --graph --color --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --color --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
