@@ -21,6 +21,7 @@
   lol = log --graph --color --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --color --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
+  sh = show --color
 
   # Show files ignored by git:
   ign = ls-files -o -i --exclude-standard
