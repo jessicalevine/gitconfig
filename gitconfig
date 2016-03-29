@@ -1,10 +1,10 @@
 [user]
-	name = Jordan Goldstein
-	email = mrjordangoldstein@gmail.com
+	name = Jessica Levine
+	email = jessica.s.levine@gmail.com
 [credential]
 	helper = osxkeychain
 [core]
-	excludesfile = /Users/jordan/.gitignore
+	excludesfile = ~/.gitignore
 [diff]
 	tool = vimdiff
 [alias]
