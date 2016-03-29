@@ -11,23 +11,30 @@
   br = branch
   co = checkout
   cm = commit
-  fu = fetch upstream
-  df = diff --color
-  dfno = diff --color --name-only
-  dfc = diff --color --cached
+
   lg = log --color
-  ll = log --color --pretty=oneline
+  ll = log --color --pretty=oneline # Shows log with only first line of each commit message
+
+  df = diff --color
+  dfno = diff --color --name-only # Shows only names of changed files
+  dfc = diff --color --cached # Compares staged changes to last commit
+
+  sh = show --color # Shows the last commit, including message and changes
+
+  ss = stash show -p --color # Shows the top of the stash, including changes
+  sv = stash save -- -m
+
+  ls = ls-files
+
+  fu = fetch upstream
+  up = "!git remote update -p; git merge --ff-only @{u}"
+
   llb = log --color --decorate --pretty=oneline
   lol = log --graph --color --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --color --decorate --pretty=oneline --abbrev-commit --all
-  ls = ls-files
-  sh = show --color
-  ss = stash show -p --color
-  sv = stash save -- -m
-  up = "!git remote update -p; git merge --ff-only @{u}"
 
-  # Show files ignored by git:
-  ign = ls-files -o -i --exclude-standard
+  ign = ls-files -o -i --exclude-standard # Show files ignored by git
+
   ctags = !.git/hooks/ctags
 [init]
   templatedir = ~/.git_template
