@@ -24,6 +24,7 @@
   sh = show --color
   ss = stash show -p --color
   sv = stash save -- -m
+  up = "!git remote update -p; git merge --ff-only @{u}"
 
   # Show files ignored by git:
   ign = ls-files -o -i --exclude-standard
