@@ -23,6 +23,7 @@
   ls = ls-files
   sh = show --color
   ss = stash show -p --color
+  sv = stash save -- -m
 
   # Show files ignored by git:
   ign = ls-files -o -i --exclude-standard
